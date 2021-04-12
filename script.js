@@ -49,7 +49,6 @@ function preferiti(event){
     d.appendChild(immagine);
     const preferiti= document.querySelector("#preferiti");
     preferiti.appendChild(d);
-    console.log("aggiunto hai preferiti");
 }
 
 //rimuovi dai preferiti
@@ -69,7 +68,6 @@ function rimuovi(event){
         }
     }
     r.remove();
-    console.log("rimosso dai preferiti " + titolo);
     scompari();
 }
 
